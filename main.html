@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Digi School</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/8ed589f1d4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+    <div class="carousel slide carousel-home" id="homeSlider" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#homeSlider" data-slide-to="0" class="active"></li>
+            <li data-target="#homeSlider" data-slide-to="1"></li>
+            <li data-target="#homeSlider" data-slide-to="2"></li>
+
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://webthemez.com/demo/digi-school-html-website-template/images/slider/slider-img-1.jpg"
+                    alt="slide-1" class="d-block w-100 slider-img">
+                <div class="carousel-caption text-white">
+                    <h1 class="wow fadeInRight">Above and Byond!</h1>
+                    <p class="wow fadeInRight">Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://webthemez.com/demo/digi-school-html-website-template/images/slider/slider-img-2.jpg"
+                    alt="slide-2" class="d-block w-100 slider-img">
+                <div class="carousel-caption text-white">
+                    <h1 class="wow fadeInRight">Early learning</h1>
+                    <p class="wow fadeInRight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
+                        dolore..
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://webthemez.com/demo/digi-school-html-website-template/images/slider/slider-img-3.jpg"
+                    alt="slide-3" class="d-block w-100 slider-img">
+                <div class="carousel-caption text-white">
+                    <h1 class="wow fadeInRight">Right experiences</h1>
+                    <p class="wow fadeInRight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis,
+                        dolore..
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-primary" id="topNav"
+            v-bind:class="{'mt-3' : !isScrolled ,'fixed-top' : isScrolled}">
+            <div class="nav-brand col-6 col-lg-3">
+                <img src="./assets/logo.png" alt="logo" class="img-fluid">
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-white"><i class="fas fa-bars align-middle"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#" class="nav-link text-white">Home</a></li>
+                    <li class="nav-item"><a href="#section_about" class="nav-link text-white">About</a></li>
+                    <li class="nav-item"><a href="#section_courses" class="nav-link text-white">Courses</a></li>
+                    <li class="nav-item"><a href="#section_gallery" class="nav-link text-white">Gallery</a></li>
+                    <li class="nav-item"><a href="#section_fee" class="nav-link text-white">Pricing</a></li>
+                    <li class="nav-item"><a href="#section_team" class="nav-link text-white">Team</a></li>
+                    <li class="nav-item"><a href="#section_contact" class="nav-link text-white mr-5">Contact us</a></li>
+
+                </ul>
+            </div>
+        </nav>
+        <section class="page text-center slider-margin py-5" id="section_about">
+            <h1 class="text-primary wow fadeInDown">About</h1>
+            <p class="text-padding wow fadeInDown ">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati,
+                est!
+                Exercitationem
+                dolores, ut
+                nemo,
+                recusandae unde sunt sed modi nam quibusdam, culpa facere consequuntur alias!</p>
+            <div class="row py-5">
+                <div class="col-12 col-lg-6">
+                    <div class="row">
+                        <img src="https://webthemez.com/demo/digi-school-html-website-template/images/features.png"
+                            alt="about-pic" class="img-fluid wow fadeInDown">
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 text-left wow fadeInDown">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident sint tempore magnam eligendi,
+                        odio fuga sequi suscipit excepturi facere unde eaque esse optio numquam impedit quam debitis
+                        maiores asperiores eos cumque aperiam placeat labore explicabo. Veniam delectus saepe iusto esse
+                        qui, doloremque eius non exercitationem nulla quo ea. Consequuntur nisi iste, similique velit
+                        error cum fugiat accusantium quis officiis nostrum?</p>
+                    <h6 class="text-dark">Skill Central</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam iusto, natus est ducimus saepe
+                        laborum</p>
+                    <h6 class="text-dark">Active Central</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam iusto, natus est ducimus saepe
+                        laborum Lorem ipsum dolor sit amet.</p>
+                    <h6 class="text-dark">Growth Central</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam iusto, natus est ducimus saepe
+                        laborum Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <section class="bg-secondary text-center col-12 py-5" id="section_courses">
+                <h1 class="text-primary wow fadeInDown">
+                    Courses
+                </h1>
+                <p class="text-padding wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod,
+                    nam corporis
+                    quas,
+                    saepe minima error
+                    aperiam dolorum aliquam, quis deserunt eos eius quisquam odio itaque.</p>
+                <div class="row justify-content-center">
+                    <div class="col-9 my-2 col-lg-3 card position-relative px-0 mx-lg-2 wow fadeInDown">
+                        <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img01.png"
+                            class="card-img-top img-fluid card-img p-1">
+                        <div class="card-body text-center p-1 pb-3">
+                            <h5 class="card-title">Play Group</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consec tetur adipisi cing elit. Ipsa sit, numquam amet
+                                voluptatibus obcaecati ea maiores totam nostrum, ad iure rerum quas harum
+                            </p>
+                            <a href="#" class=" btn btn-outline-primary border-primary border-primary-fill">Apply
+                                now</a>
+                        </div>
+                    </div>
+                    <div class="col-9 my-2 col-lg-3 card position-relative px-0 mx-lg-2 wow fadeInDown">
+                        <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img02.png"
+                            class="card-img-top img-fluid card-img p-1">
+                        <div class="card-body text-center p-1 pb-3">
+                            <h5 class="card-title">Nursery</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consec tetur adipisi cing elit. Ipsa sit, numquam amet
+                                voluptatibus obcaecati ea maiores totam nostrum, ad iure rerum quas harum
+                            </p>
+                            <a href="#" class=" btn btn-outline-primary border-primary border-primary-fill">Apply
+                                now</a>
+                        </div>
+                    </div>
+                    <div class="col-9 my-2 col-lg-3 card position-relative px-0 mx-lg-2 wow fadeInDown">
+                        <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img03.png"
+                            class="card-img-top img-fluid card-img p-1">
+                        <div class="card-body text-center p-1 pb-3">
+                            <h5 class="card-title">Primery I
+                            </h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consec tetur adipisi cing elit. Ipsa sit, numquam amet
+                                voluptatibus obcaecati ea maiores totam nostrum, ad iure rerum quas harum
+                            </p>
+                            <a href="#" class=" btn btn-outline-primary border-primary border-primary-fill">Apply
+                                now</a>
+                        </div>
+                    </div>
+                    <div class="col-9 my-2 col-lg-3 card position-relative px-0 mx-lg-2 wow fadeInDown">
+                        <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img04.png"
+                            class="card-img-top img-fluid card-img p-1">
+                        <div class="card-body text-center p-1 pb-3">
+                            <h5 class="card-title">Primery II</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consec tetur adipisi cing elit. Ipsa sit, numquam amet
+                                voluptatibus obcaecati ea maiores totam nostrum, ad iure rerum quas harum
+                            </p>
+                            <a href="#" class=" btn btn-outline-primary border-primary border-primary-fill">Apply
+                                now</a>
+                        </div>
+                    </div>
+                    <div class="col-9 my-2 col-lg-3 card position-relative px-0 mx-lg-2 wow fadeInDown">
+                        <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img05.png"
+                            class="card-img-top img-fluid card-img p-1">
+                        <div class="card-body text-center p-1 pb-3">
+                            <h5 class="card-title">Computers</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consec tetur adipisi cing elit. Ipsa sit, numquam amet
+                                voluptatibus obcaecati ea maiores totam nostrum, ad iure rerum quas harum
+                            </p>
+                            <a href="#" class=" btn btn-outline-primary border-primary border-primary-fill">Apply
+                                now</a>
+                        </div>
+                    </div>
+                    <div class="col-9 my-2 col-lg-3 card position-relative px-0 mx-lg-2 wow fadeInDown">
+                        <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img06.png"
+                            class="card-img-top img-fluid card-img p-1">
+                        <div class="card-body text-center p-1  pb-3">
+                            <h5 class="card-title">Games</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consec tetur adipisi cing elit. Ipsa sit, numquam amet
+                                voluptatibus obcaecati ea maiores totam nostrum, ad iure rerum quas harum
+                            </p>
+                            <a href="#" class=" btn btn-outline-primary border-primary border-primary-fill">Apply
+                                now</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="col-12 text-center py-5" id="section_gallery">
+                <h1 class="text-primary wow fadeInDown">Gallery</h1>
+                <p class="text-padding wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod,
+                    nam corporis
+                    quas, saepe minima error aperiam dolorum aliquam, quis deserunt eos eius quisquam odio itaque.
+                </p>
+                <div class="row justify-content-center wow fadeInDown">
+                    <a :class="getActiveClass('btn-0')" v-on:click="activeID = 'btn-0'; filterCata()" id="btn-0">All</a>
+                    <a :class="getActiveClass('btn-1')" v-on:click="activeID = 'btn-1'; filterCata()" id="btn-1">Annual
+                        Day</a>
+                    <a :class="getActiveClass('btn-2')" v-on:click="activeID = 'btn-2'; filterCata()"
+                        id="btn-2">Competition</a>
+                    <a :class="getActiveClass('btn-3')" v-on:click="activeID = 'btn-3'; filterCata()"
+                        id="btn-3">Events</a>
+                    <a :class="getActiveClass('btn-4')" v-on:click="activeID = 'btn-4'; filterCata()" id="btn-4">Tech
+                        Day</a>
+                </div>
+                <div class="row no-gutters wow fadeInUp">
+                    <div v-if="catagoryShown.cata0" class="col-12 col-md-3 p-1">
+                        <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img-portfolio/portfolio1.jpg"
+                            alt="gallery" class="img-fluid">
+                    </div>
+                    <div v-if="catagoryShown.cata1" class="col-12 col-md-3 p-1">
+                        <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img-portfolio/portfolio2.jpg"
+                            alt="gallery" class="img-fluid">
+                    </div>
+                    <div v-if="catagoryShown.cata1" class="col-12 col-md-3 p-1">
+                        <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img-portfolio/portfolio3.jpg"
+                            alt="gallery" class="img-fluid">
+                    </div>
+                    <div v-if="catagoryShown.cata0" class="col-12 col-md-3 p-1">
+                        <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img-portfolio/portfolio4.jpg"
+                            alt="gallery" class="img-fluid">
+                    </div>
+                    <div v-if="catagoryShown.cata2" class="col-12 col-md-3 p-1">
+                        <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img-portfolio/portfolio5.jpg"
+                            alt="gallery" class="img-fluid">
+                    </div>
+                    <div v-if="catagoryShown.cata2" class="col-12 col-md-3 p-1">
+                        <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img-portfolio/portfolio6.jpg"
+                            alt="gallery" class="img-fluid">
+                    </div>
+                    <div v-if="catagoryShown.cata3" class="col-12 col-md-3 p-1">
+                        <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img-portfolio/portfolio7.jpg"
+                            alt="gallery" class="img-fluid">
+                    </div>
+                    <div v-if="catagoryShown.cata3" class="col-12 col-md-3 p-1">
+                        <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img-portfolio/portfolio1.jpg"
+                            alt="gallery" class="img-fluid">
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="bg-secondary text-center col-12 py-5" id="section_Stats">
+                <h1 class="text-primary wow fadeInDown">
+                    Stats
+                </h1>
+                <p class="text-padding py-5 wow fadeInDown">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, nam corporis quas, saepe minima
+                    error aperiam dolorum aliquam, quis deserunt eos eius quisquam odio itaque.
+                </p>
+
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-3 text-primary my-2 wow fadeInDown">
+                        <i class="fas fa-4x fa-microphone"></i>
+                        <p class=" h6 pt-3">Margins</p>
+                        <p class="h2">100,000</p>
+                    </div>
+                    <div class="col-12 col-md-3 text-primary my-2 wow fadeInDown">
+                        <i class="fas fa-4x fa-gift"></i>
+                        <p class=" h6 pt-3">Completed</p>
+                        <p class="h2">34201</p>
+                    </div>
+                    <div class="col-12 col-md-3 text-primary my-2 wow fadeInDown">
+                        <i class="fas fa-4x fa-mobile-alt"></i>
+                        <p class=" h6 pt-3">Projects</p>
+                        <p class="h2">152</p>
+                    </div>
+                    <div class="col-12 col-md-3 text-primary my-2 wow fadeInDown">
+                        <i class="fas fa-4x fa-lightbulb"></i>
+                        <p class=" h6 pt-3">Customers</p>
+                        <p class="h2">56500</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="col-12 text-center py-5 wow fadeInDown" id="section_fee">
+                <h1 class="text-primary  wow fadeInDown">Fee Structure</h1>
+                <p class="text-padding  wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod,
+                    nam corporis
+                    quas, saepe minima error aperiam dolorum aliquam, quis deserunt eos eius quisquam odio itaque.
+                </p>
+                <div class="row justify-content-center">
+                    <div class="col-10 col-sm-6 col-md-3 border-primary p-4 m-3 card  wow fadeInLeft">
+                        <h3 class="text-dark">Nursery</h3>
+                        <h2 class="py-3">$1600/Year</h2>
+                        <p class="border-bottom text-dark py-4"> Oral work</p>
+                        <p class="border-bottom text-dark py-4"> Written work</p>
+                        <p class="border-bottom text-dark py-4"> Competitions</p>
+                        <p class="border-bottom text-dark py-4"> 24/7 Day Care</p>
+                        <div>
+                            <a href="#"
+                                class=" btn btn-active btn-outline-primary border-primary border-primary-fill">Enroll</a>
+                        </div>
+
+
+                    </div>
+                    <div class="col-10 col-sm-6 col-md-3 border-primary p-4 m-3 card  wow fadeInUp">
+                        <h3 class="text-dark">PP I</h3>
+                        <h2 class="py-3">$6900/Year</h2>
+                        <p class="border-bottom text-dark py-4"> Oral work</p>
+                        <p class="border-bottom text-dark py-4"> Written work</p>
+                        <p class="border-bottom text-dark py-4"> Games</p>
+                        <p class="border-bottom text-dark py-4"> 24/7 Day Care</p>
+                        <div>
+                            <a href="#"
+                                class=" btn btn-active btn-outline-primary border-primary border-primary-fill">Enroll</a>
+                        </div>
+                    </div>
+                    <div class="col-10 col-sm-6 col-md-3 border-primary p-4 m-3 card  wow fadeInRight">
+                        <h3 class="text-dark">PP II</h3>
+                        <h2 class="py-3">$9900/Year</h2>
+                        <p class="border-bottom text-dark py-4"> Oral work</p>
+                        <p class="border-bottom text-dark py-4"> Written work</p>
+                        <p class="border-bottom text-dark py-4"> Patterns</p>
+                        <p class="border-bottom text-dark py-4"> Competitions</p>
+                        <div>
+                            <a href="#"
+                                class=" btn btn-active btn-outline-primary border-primary border-primary-fill">Enroll</a>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="bg-primary col-12 text-center py-5" id="section_team">
+                <h1 class="text-white  wow fadeInDown">Team</h1>
+                <p class="text-padding text-white  wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit. Quod, nam
+                    corporis
+                    quas, saepe minima error aperiam dolorum aliquam, quis deserunt eos eius quisquam odio itaque.
+                </p>
+                <div class="row justify-content-center">
+                    <div class="col-10 col-sm-6 col-md-2 m-4  wow bounceIn">
+                        <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img-teams/team1.jpg"
+                            class="img-fluid">
+                        <h6 class="text-white my-2">Chris Williams</h6>
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="col-10 col-sm-6 col-md-2 m-4 wow bounceIn">
+                        <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img-teams/team2.jpg"
+                            class="img-fluid">
+                        <h6 class="text-white my-2">Randy Dode</h6>
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                    <div class="col-10 col-sm-6 col-md-2 m-4 wow bounceIn">
+                        <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img-teams/team3.jpg"
+                            class="img-fluid">
+                        <h6 class="text-white my-2">Mitchel Kemet</h6>
+                        <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="col-12 text-center py-5" id="section_contact">
+                <h1 class="text-primary wow fadeInDown">Contact Us</h1>
+                <p class="text-padding wow fadeInDown">We love feedback. Fill out the form below and we'll get back to
+                    you as soon as
+                    possible. in minus distinctio dolores ipsam.
+                </p>
+                <div class="row justify-content-center">
+                    <div class="col-8 col-md-4 form-group wow fadeInLeft">
+                        <input type="text" class="form-control form-control-lg" id="nameInput" placeholder="Full Name">
+                    </div>
+                    <div class="col-8 col-md-4 form-group wow fadeInRight">
+                        <input type="text" class="form-control form-control-lg" id="emailInput" placeholder="Email">
+                    </div>
+                    <div class="col-8 form-group wow fadeInUp">
+                        <textarea name="message" id="messageInput" cols="30" rows="10" class="form-control"></textarea>
+                    </div>
+                    <div class="col-12">
+                        <a href="#"
+                            class=" btn btn-active btn-outline-primary border-primary border-primary-fill">Submit
+                            Message</a>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="col-12 text-left py-5 bg-footer" id="section_footer">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-md-3">
+                        <img src="./assets/logo.png" alt="footerlogo" class="img-fluid">
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et porro quos
+                            iste ratione doloribus asperiores, error omnis delectus rerum sapiente. Et, aliquam modi
+                            beatae quae in perferendis ab est fugiat!</p>
+                    </div>
+                    <div class="col-10 col-md-3">
+                        <h5 class="text-white">News & updates</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, nam
+                            corporis quas, saepe minima error aperiam dolorum aliquam, quis deserunt eos eius quisquam
+                            odio itaque.
+                        </p>
+                    </div>
+                    <div class="col-10 col-md-3">
+                        <h5 class="text-white">Contact us</h5>
+                        <p class="text-muted">Lorem ipsum dolor sit amet adipisicing elit.</p>
+                        <div class="text-muted"><i class="fas fa-home"></i> 123 New Venu Street</div>
+                        <div class="text-muted"><i class="fas fa-phone"></i> 001 123 12345 99</div>
+                        <div class="text-muted"><i class="fas fa-envelope-square"></i> support@website.com</div>
+
+
+                    </div>
+                    <div class="col-10 text-muted text-center m-2">
+                        <span class="mx-2"><i class="fab fa-2x fa-facebook"></i></span>
+                        <span class="mx-2"><i class="fab fa-2x fa-twitter"></i></span>
+                        <span class="mx-2"><i class="fab fa-2x fa-pinterest"></i></span>
+                        <span class="mx-2"><i class="fab fa-2x fa-google"></i></span>
+                    </div>
+                    <div class="col-10 text-center">
+                        <p class="text-muted">Copyright © 2018. Template by: <span class="text-primary">WebThemez</span>
+                            , All rights reserved</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollnav@3.0.1/dist/scrollnav.min.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="node_modules/wow.js/dist/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="./js/main.js" type="text/JavaScript"></script>
+</body>
+
+</html>
