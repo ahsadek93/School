@@ -27,7 +27,7 @@ var p = new Vue({
 
 
 var v = new Vue({
-    el: '#section_gallary',
+    el: '#section_gallery',
     data() {
         return {
             activeID: 'btn-0',
