@@ -26,11 +26,11 @@
         <![endif]-->
 
 
-    <div class="carousel slide carousel-home" id="homeSlider" data-ride="carousel">
+    <div class="carousel slide carousel-home" id="particles-js" data-ride="carousel">
         <ol class="carousel-indicators">
-            <li data-target="#homeSlider" data-slide-to="0" class="active"></li>
-            <li data-target="#homeSlider" data-slide-to="1"></li>
-            <li data-target="#homeSlider" data-slide-to="2"></li>
+            <li data-target="#particles-js" data-slide-to="0" class="active"></li>
+            <li data-target="#particles-js" data-slide-to="1"></li>
+            <li data-target="#particles-js" data-slide-to="2"></li>
 
         </ol>
         <div class="carousel-inner">
@@ -471,6 +471,14 @@
         new WOW().init();
         $(window).on('load', function () {
             new WOW().init();
+        });
+    </script>
+    <script src="./particles.js-master/particles.js" type="text/JavaScript"></script>
+    <script src="./particles.js-master/demo/js/app.js"></script>
+
+    <script>
+        particlesJS.load('particles-js', 'assets/particles.json', function () {
+            console.log('callback - particles.js config loaded');
         });
     </script>
     <script src="./js/main.js" type="text/JavaScript"></script>
