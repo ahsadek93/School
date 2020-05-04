@@ -479,9 +479,10 @@
     <script src="./particles.js-master/demo/js/app.js"></script>
 
     <script>
-        particlesJS.load('particles-js', 'assets/particles.json', function () {
-            console.log('callback - particles.js config loaded');
-        });
+        particlesJS.load('particles-js', 'particles.json',
+            function () {
+                console.log('particles.json loaded...')'
+            })
     </script>
     <script src="./js/main.js" type="text/JavaScript"></script>
 </body>
