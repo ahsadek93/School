@@ -12,7 +12,7 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img
-            src="https://webthemez.com/demo/digi-school-html-website-template/images/slider/slider-img-1.jpg"
+            src="./../assets/slider1.webp"
             alt="slide-1"
             class="d-block w-100 slider-img"
           />
@@ -25,7 +25,7 @@
         </div>
         <div class="carousel-item">
           <img
-            src="https://webthemez.com/demo/digi-school-html-website-template/images/slider/slider-img-2.jpg"
+            src="./../assets/slider2.webp"
             alt="slide-2"
             class="d-block w-100 slider-img"
           />
@@ -39,7 +39,7 @@
         </div>
         <div class="carousel-item">
           <img
-            src="https://webthemez.com/demo/digi-school-html-website-template/images/slider/slider-img-3.jpg"
+            src="./../assets/slider3.webp"
             alt="slide-3"
             class="d-block w-100 slider-img"
           />
