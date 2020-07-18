@@ -1,4 +1,6 @@
 <template>
+  <client-only>
+
   <b-container fluid class="px-0">
     <homeSlider />
     <b-container>
@@ -13,6 +15,8 @@
     <sectionContact />
     <sectionFooter />
   </b-container>
+    </client-only>
+
 </template>
 
 <script>
@@ -42,5 +46,6 @@ export default {
     sectionContact,
     sectionFooter
   },
+
 }
 </script>
