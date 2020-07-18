@@ -56,60 +56,28 @@
       </div>
       <div class="row no-gutters wow fadeInUp">
         <div v-if="catagoryShown.cata0" class="col-12 col-md-3 p-1">
-          <img
-            src="https://webthemez.com/demo/digi-school-html-website-template/images/img-portfolio/portfolio1.jpg"
-            alt="gallery"
-            class="img-fluid"
-          />
+          <img src="./../assets/301.webp" alt="gallery" class="img-fluid" />
         </div>
         <div v-if="catagoryShown.cata1" class="col-12 col-md-3 p-1">
-          <img
-            src="https://webthemez.com/demo/digi-school-html-website-template/images/img-portfolio/portfolio2.jpg"
-            alt="gallery"
-            class="img-fluid"
-          />
+          <img src="./../assets/302.webp" alt="gallery" class="img-fluid" />
         </div>
         <div v-if="catagoryShown.cata1" class="col-12 col-md-3 p-1">
-          <img
-            src="https://webthemez.com/demo/digi-school-html-website-template/images/img-portfolio/portfolio3.jpg"
-            alt="gallery"
-            class="img-fluid"
-          />
+          <img src="./../assets/303.webp" alt="gallery" class="img-fluid" />
         </div>
         <div v-if="catagoryShown.cata0" class="col-12 col-md-3 p-1">
-          <img
-            src="https://webthemez.com/demo/digi-school-html-website-template/images/img-portfolio/portfolio4.jpg"
-            alt="gallery"
-            class="img-fluid"
-          />
+          <img src="./../assets/304.webp" alt="gallery" class="img-fluid" />
         </div>
         <div v-if="catagoryShown.cata2" class="col-12 col-md-3 p-1">
-          <img
-            src="https://webthemez.com/demo/digi-school-html-website-template/images/img-portfolio/portfolio5.jpg"
-            alt="gallery"
-            class="img-fluid"
-          />
+          <img src="./../assets/305.webp" alt="gallery" class="img-fluid" />
         </div>
         <div v-if="catagoryShown.cata2" class="col-12 col-md-3 p-1">
-          <img
-            src="https://webthemez.com/demo/digi-school-html-website-template/images/img-portfolio/portfolio6.jpg"
-            alt="gallery"
-            class="img-fluid"
-          />
+          <img src="./../assets/306.webp" alt="gallery" class="img-fluid" />
         </div>
         <div v-if="catagoryShown.cata3" class="col-12 col-md-3 p-1">
-          <img
-            src="https://webthemez.com/demo/digi-school-html-website-template/images/img-portfolio/portfolio7.jpg"
-            alt="gallery"
-            class="img-fluid"
-          />
+          <img src="./../assets/307.webp" alt="gallery" class="img-fluid" />
         </div>
         <div v-if="catagoryShown.cata3" class="col-12 col-md-3 p-1">
-          <img
-            src="https://webthemez.com/demo/digi-school-html-website-template/images/img-portfolio/portfolio1.jpg"
-            alt="gallery"
-            class="img-fluid"
-          />
+          <img src="./../assets/301.webp" alt="gallery" class="img-fluid" />
         </div>
       </div>
     </section>

@@ -11,7 +11,7 @@
                 <div class="row py-5">
                     <div class="col-12 col-lg-6">
                         <div class="row">
-                            <img src="https://webthemez.com/demo/digi-school-html-website-template/images/features.png"
+                            <img src="./../assets/101.webp"
                                 alt="about-pic" class="img-fluid wow fadeInDown">
                         </div>
                     </div>

@@ -14,7 +14,7 @@
           class="col-9 my-2 col-lg-3 card position-relative px-0 mx-lg-2 wow fadeInDown"
         >
           <img
-            src="https://webthemez.com/demo/digi-school-html-website-template/images/img01.png"
+            src="./../assets/201.webp"
             class="card-img-top img-fluid card-img p-1"
           />
           <div class="card-body text-center p-1 pb-3">
@@ -35,7 +35,7 @@
           class="col-9 my-2 col-lg-3 card position-relative px-0 mx-lg-2 wow fadeInDown"
         >
           <img
-            src="https://webthemez.com/demo/digi-school-html-website-template/images/img02.png"
+            src="./../assets/202.webp"
             class="card-img-top img-fluid card-img p-1"
           />
           <div class="card-body text-center p-1 pb-3">
@@ -56,7 +56,7 @@
           class="col-9 my-2 col-lg-3 card position-relative px-0 mx-lg-2 wow fadeInDown"
         >
           <img
-            src="https://webthemez.com/demo/digi-school-html-website-template/images/img03.png"
+            src="./../assets/203.webp"
             class="card-img-top img-fluid card-img p-1"
           />
           <div class="card-body text-center p-1 pb-3">
@@ -77,7 +77,7 @@
           class="col-9 my-2 col-lg-3 card position-relative px-0 mx-lg-2 wow fadeInDown"
         >
           <img
-            src="https://webthemez.com/demo/digi-school-html-website-template/images/img04.png"
+             src="./../assets/204.webp"
             class="card-img-top img-fluid card-img p-1"
           />
           <div class="card-body text-center p-1 pb-3">
@@ -98,7 +98,7 @@
           class="col-9 my-2 col-lg-3 card position-relative px-0 mx-lg-2 wow fadeInDown"
         >
           <img
-            src="https://webthemez.com/demo/digi-school-html-website-template/images/img05.png"
+             src="./../assets/205.webp"
             class="card-img-top img-fluid card-img p-1"
           />
           <div class="card-body text-center p-1 pb-3">
@@ -119,7 +119,7 @@
           class="col-9 my-2 col-lg-3 card position-relative px-0 mx-lg-2 wow fadeInDown"
         >
           <img
-            src="https://webthemez.com/demo/digi-school-html-website-template/images/img06.png"
+             src="./../assets/206.webp"
             class="card-img-top img-fluid card-img p-1"
           />
           <div class="card-body text-center p-1 pb-3">

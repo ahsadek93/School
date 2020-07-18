@@ -10,19 +10,20 @@
                     </p>
                     <div class="row justify-content-center">
                         <div class="col-10 col-sm-6 col-md-2 m-4  wow bounceIn">
-                            <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img-teams/team1.jpg"
+                            <img              src="./../assets/t01.webp"
+
                                 class="img-fluid">
                             <h6 class="text-white my-2">Chris Williams</h6>
                             <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                         </div>
                         <div class="col-10 col-sm-6 col-md-2 m-4 wow bounceIn">
-                            <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img-teams/team2.jpg"
+                            <img src="./../assets/t02.webp"
                                 class="img-fluid">
                             <h6 class="text-white my-2">Randy Dode</h6>
                             <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                         </div>
                         <div class="col-10 col-sm-6 col-md-2 m-4 wow bounceIn">
-                            <img src="https://webthemez.com/demo/digi-school-html-website-template/images/img-teams/team3.jpg"
+                            <img src="./../assets/t03.webp"
                                 class="img-fluid">
                             <h6 class="text-white my-2">Mitchel Kemet</h6>
                             <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
