@@ -1,0 +1,101 @@
+/* Colors */
+
+$color-primary: #753475;
+$color-secondary: #ffe6ff;
+$color-footer: #201620;
+
+.bg-primary {
+    background-color: $color-primary !important;
+}
+
+.bg-secondary {
+    background-color: $color-secondary !important;
+}
+
+.bg-footer {
+    background-color: $color-footer;
+}
+
+.text-primary {
+    color: $color-primary !important;
+}
+
+
+/* Text */
+
+.text-padding {
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
+
+/* Borders */
+
+.border-primary {
+    border: 1px solid $color-primary !important;
+    color: $color-primary !important;
+    background-color: white !important;
+    box-shadow: none !important;
+
+    &-fill {
+
+        &:hover,
+        &:focus,
+        &:active {
+            color: white !important;
+            background-color: $color-primary !important;
+        }
+    }
+
+}
+
+/* Btns */
+.btn-active {
+    color: white !important;
+    background-color: $color-primary !important;
+}
+
+/* Slider */
+
+.carousel-home {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+.slider-img {
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw !important;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.49);
+    width: 100%;
+    right: 0;
+    left: 0;
+}
+
+.slider-margin {
+    margin-top: 100vh;
+}
+
+
+/* Cards */
+
+.card-img {
+    object-fit: cover;
+    border-bottom: 18px solid $color-primary;
+}
+
+.card {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar */
+
+.navbar {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
