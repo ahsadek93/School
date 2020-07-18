@@ -1,4 +1,7 @@
-<template>
+
+export default {
+
+template: `
     <nav class="navbar navbar-expand-lg bg-primary" id="topNav"
                 v-bind:class="{'mt-3' : !isScrolled ,'fixed-top' : isScrolled}">
                 <div class="nav-brand col-6 col-lg-3">
@@ -22,11 +25,9 @@
 
                     </ul>
                 </div>
-            </nav>
-</template>
+            </nav> `
+,
 
-<script>
-export default {
     name: 'headerNav',
     data(){
         return{
@@ -52,4 +53,3 @@ export default {
     },
     
 }
-</script>

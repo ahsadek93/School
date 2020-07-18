@@ -1,4 +1,4 @@
-import headerNav from './components/headerNav.vue'
+import headerNav from './components/headerNav.js'
 
 var p = new Vue({
     el: "#app",
